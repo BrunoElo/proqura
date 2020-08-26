@@ -8,12 +8,30 @@ body {
     background-color: #4031B7;
 }
 
+.text-grey {
+    color: #B6D2E3;
+}
+
 .navbar {
     background-color: #4031B7;
 }
 
+
+
 .nav-link {
-    color: white !important;
+    color: #B6D2E3 !important;
+}
+
+.reg {
+    list-style-type: none;
+}
+
+.signup {
+    border-radius: 50px;
+    background-color: transparent;
+    border-style: none;
+    color: #B6D2E3;
+    border: 1px solid #B6D2E3;
 }
 
 .intro-wrapper {
@@ -21,9 +39,42 @@ body {
     color: white;
 }
 
+.intro__title {
+    font-size: 56px;
+}
+
 .demo-btn {
     border-radius: 50px;
     background-color: #60CBBE;
     border-style: none;
     color: white;
+}
+
+.service {
+    padding-top: 100px;
+}
+
+.section__title {
+    font-size: 36px;
+}
+
+.process__bg--blue {
+    background-color: #4031B7;
+    border-radius: 50%;
+    width: 178px;
+    height: 178px;
+}
+
+.process__title {
+    font-weight: 500;
+}
+.process__svg {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 992px) {
+    .nav-item {
+        margin-left: 30px;
+    }
 }
