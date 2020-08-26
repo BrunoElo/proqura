@@ -1,0 +1,29 @@
+
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background-color: #4031B7;
+}
+
+.navbar {
+    background-color: #4031B7;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.intro-wrapper {
+    padding-top: 100px;
+    color: white;
+}
+
+.demo-btn {
+    border-radius: 50px;
+    background-color: #60CBBE;
+    border-style: none;
+    color: white;
+}
