@@ -50,7 +50,7 @@ body {
     color: white;
 }
 
-.service {
+.service, .steps {
     padding-top: 100px;
 }
 
@@ -65,13 +65,27 @@ body {
     height: 178px;
 }
 
-.process__title {
+.process__title, .step__title {
     font-weight: 500;
+    font-size: 20px;
 }
+
 .process__svg {
     width: 100%;
 }
 
+.steps {
+    background-color: #FBFAF9;
+}
+
+.tender-board {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.step {
+    width: 300px;
+}
 
 @media screen and (min-width: 992px) {
     .nav-item {
